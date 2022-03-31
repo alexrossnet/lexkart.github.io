@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About - Lexkart</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="images/icon.png" type="image/icon type">
+</head>
+<body>
+	
+	<div class="container">
+	<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" width="200px"></a>
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html"class="menubtn">Home</a></li>
+				<li><a href="collection.html"class="menubtn">Collection</a></li>
+				<li><a href="about.html"class="menubtn">About</a></li>
+				<li><a href="account.html"class="menubtn">Account</a></li>
+			</ul>
+		</nav>
+		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+		<a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+	</div>
+    </div>
+    <h2 class="title">About the website</h2> 
+    <div class="about">
+    <p>Welcome to Lexkart.</br></br>
+We are dedicated to help you get your latest trendy products at a reasonable price with 100% authencity. We aim to help you save your money!</br>
+          Founded in December 2019, Lexkart has come a long way from being a small local store to a booming one. We now serve customers all over India and have also been awarded "Best Eco-friendly Online Store" by Times of India in 2020. </br>
+  
+
+We hope you find great deals. </br> </br>
+
+Happy Shopping. </br> </br>
+
+Sincerely </br>
+Alex Ross </br>
+CEO</p>
+ </div>
+    <h2 class="title">Contact the CEO</h2> 
+    <div class="table-box">
+    	<div class="table-row">
+    		<div class="table-cell">
+    			<p>Name</p>
+    		</div>
+    		<div class="table-cell des">
+    			<p>Alex Ross</p>
+    		</div>
+    	</div>
+    	<div class="table-row">
+    		<div class="table-cell">
+    			<p>Phone</p>
+    		</div>
+    		<div class="table-cell des">
+    			<p><a href="tel:+91 91701 43771">+919170143771</a></p>
+    		</div>
+    	</div>
+    	<div class="table-row">
+    		<div class="table-cell">
+    			<p>E-mail</p>
+    		</div>
+    		<div class="table-cell  des">
+    			<a href="mailto:ross.alex2909@gmail.com"><p>ross.alex2909@gmail.com</p></a>
+    		</div>
+    	</div>
+    	<div class="table-row">
+    		<div class="table-cell">
+    			<p>Instagram</p>
+    		</div>
+    		<div class="table-cell des">
+    			<a href="https://www.instagram.com/alex.ross._/?hl=en"><p>@alex.ross._</p></a>
+    		</div>
+    	</div>
+    </div>
+
+    
+
+    <!--------------------------------->
+    <div class="footer">
+    	<div class="container">
+    		<div class="row">
+    			<div class="footer-col-1">
+    				<h3>Download Our App</h3>
+    				<p>Download App for Android and ios mobile phones</p>
+    				<div class="app-logo">
+    					<img src="images/play-store.jpg">
+    					<img src="images/app-store.jpg"> 
+    				</div>   			
+    			</div>
+    			<div class="footer-col-2">
+    				<img src="images/logo-white.png" width="100px"> 
+    				<p>Fashion since 2000</p>
+    			</div>
+    			<div class="footer-col-3">
+    				<h3>Useful Links</h3>
+    				<ul>
+    					<li>Coupons</li>
+    					<li>Blog Post</li>
+    					<li>Return Policy</li>
+    					<li>Join Affiliate</li>
+    			</div>
+    			<div class="footer-col-4">
+    				<h3>Follow us</h3>
+    				<ul>
+    					<li>Facebook</li>
+    					<li>Twitter</li>
+    					<li>Instagram</li>
+    					<li>YouTube</li>
+    			</div>
+    		</div>
+    		<hr>
+    		<p class="copyright">Copyright 2022 - Alex Ross</p>
+    	</div>
+    </div>
+    <!-------------- js for toggle menu ------------>
+    <script>
+    	var MenuItems = document.getElementById("MenuItems");
+    	MenuItems.style.maxHeight = "0px";
+    	function menutoggle(){
+    		if(MenuItems.style.maxHeight == "0px")
+    		{
+    			MenuItems.style.maxHeight = "200px";
+    		}
+    		else
+    		{
+    			MenuItems.style.maxHeight = "0px";
+    		}
+    	}
+    </script>
+</body>
+</html>
